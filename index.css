@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.left-menu {
+  background-color: rgb(165, 216, 46);
+  width: 30vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: -20vw;
+  transform: left 1s;
+}
+
+.left-menu:hover {
+  left: 0;
+}
+
+.left-menu .title {
+  position: relative;
+  background-color: rgb(184, 113, 0);
+  padding: 0.4rem;
+}
+
+.left-menu .title i {
+  position: absolute;
+  right: 0.5rem;
+  transition: transform 1s;
+}
+
+.left-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.left-menu ul a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.7rem;
+}
+.left-menu:hover i {
+  transform: rotate(180deg);
+}
